@@ -1,0 +1,25 @@
+{
+  "name": "easy_reading",
+  "version": "1.0.0",
+  "description": "web service to support android application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "easy",
+    "reading"
+  ],
+  "author": "zeeshan Khan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easy-reading/web_service.git"
+  }
+}
