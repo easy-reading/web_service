@@ -7,7 +7,7 @@ var app=express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-var server=app.listen(process.env.PORT, process.env.IP,function(){
+var server=app.listen(process.env.OPENSHIFT_NODEJS_PORT, process.env.OPENSHIFT_NODEJS_IP,function(){
   console.log("listening on port %s:%s..",process.env.IP,server.address().port); 
 });
 
